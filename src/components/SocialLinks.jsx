@@ -7,7 +7,6 @@ import {
 } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import PresenceWidget from "./PresenceWidget";
 
 const socialLinks = [
   {
@@ -15,10 +14,10 @@ const socialLinks = [
     displayName: "GitHub",
     subText: "@YusufWibisana", // Ganti dengan username GitHub kamu
     icon: Github,
-    url: "https://github.com/Nexyuspay", // Ganti dengan link profil GitHub kamu
+    url: "https://github.com/YusufWibisana", // Ganti dengan link profil GitHub kamu
     color: "#ffffff",
     gradient: "from-[#333] to-[#24292e]",
-    isPrimary: true, // GitHub sekarang jadi yang utama
+    isPrimary: true,
   },
   {
     name: "Instagram",
@@ -34,7 +33,7 @@ const socialLinks = [
     displayName: "Facebook",
     subText: "ZassStore / Nexyuspay",
     icon: Facebook,
-    url: "https://www.facebook.com/namakamu", // Ganti dengan link Facebook kamu
+    url: "https://www.facebook.com/Nexyuspay", // Ganti dengan link Facebook kamu
     color: "#1877F2",
     gradient: "from-[#1877F2] to-[#0C5A9E]",
   },
@@ -120,8 +119,8 @@ const SocialLinks = () => {
           </div>
         </a>
 
-        {/* Second Row - Instagram, Facebook, TikTok (menggunakan Grid) */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {/* Second Row - 2 Kotak Menyamping lalu Turun (Grid) */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
           {otherLinks.map((link, index) => (
             <a
               key={link.name}
@@ -135,21 +134,27 @@ const SocialLinks = () => {
               data-aos-delay={200 + index * 100} 
             >
               <div className={`absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-500 bg-gradient-to-r ${link.gradient}`} />
-              <div className="relative flex items-center justify-center">
+              
+              {/* Box Ikon */}
+              <div className="relative flex items-center justify-center min-w-[2.5rem]">
                 <div className="absolute inset-0 opacity-20 rounded-lg transition-all duration-500 group-hover:scale-125 group-hover:opacity-30" style={{ backgroundColor: link.color }} />
                 <div className="relative p-2 rounded-lg">
                   <link.icon className="w-5 h-5 transition-all duration-500 group-hover:scale-110" style={{ color: link.color }} />
                 </div>
               </div>
-              <div className="flex flex-col min-w-0">
+              
+              {/* Teks tanpa efek truncate (biar gak kepotong) */}
+              <div className="flex flex-col">
                 <span className="text-sm font-bold text-gray-200 group-hover:text-white transition-colors duration-300">
                   {link.displayName}
                 </span>
-                <span className="text-xs text-gray-400 truncate group-hover:text-gray-300 transition-colors duration-300">
+                <span className="text-xs text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
                   {link.subText}
                 </span>
               </div>
+              
               <ExternalLink className="w-4 h-4 text-gray-500 group-hover:text-white ml-auto opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-x-0 -translate-x-2" />
+              
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 pointer-events-none overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000" />
               </div>
