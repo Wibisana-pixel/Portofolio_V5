@@ -21,7 +21,7 @@ const Header = memo(() => (
       data-aos-duration="800"
     >
       <Sparkles className="w-5 h-5 text-purple-400" />
-      Transforming ideas into digital experiences
+      Mengubah ide menjadi pengalaman digital.
       <Sparkles className="w-5 h-5 text-purple-400" />
     </p>
   </div>
@@ -209,7 +209,7 @@ const AboutPage = () => {
                 data-aos-duration="1300"
                 itemProp="name"
               >
-                Eki Zulfar Rachman
+                M Yusuf Wibisana
               </span>
             </h2>
             
@@ -218,8 +218,8 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-        Saya adalah mahasiswa Teknik Informatika yang berfokus pada pengembangan Front-End. 
-Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan.
+        Saya adalah seorang pelajar berusia 17 tahun yang sangat antusias dengan dunia pengembangan web dan manajemen bisnis digital. Saat ini saya aktif membangun berbagai proyek website dan mengelola platform layanan digital independen. Saya selalu berupaya menciptakan solusi digital yang inovatif, efisien, dan bermanfaat dalam setiap karya yang saya kerjakan.
+</p>
                   </p>
 
                {/* Quote Section */}
@@ -245,7 +245,7 @@ Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupay
       </div>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
-              <a href="https://drive.google.com/drive/folders/1BOm51Grsabb3zj6Xk27K-iRwI1zITcpo" className="w-full lg:w-auto">
+              <a href="#" className="w-full lg:w-auto">
               <button 
                 data-aos="fade-up"
                 data-aos-duration="800"
