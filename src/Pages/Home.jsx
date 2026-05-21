@@ -80,7 +80,7 @@ const WORDS = ["Student & Web Developer", "Digital Business Manager"];
 const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/Wibisana-pixel", label: "GitHub Profile" },
-  { icon: Instagram, link: "https://www.instagram.com/@nexyuspay", label: "Instagram Profile" }
+  { icon: Instagram, link: "https://www.instagram.com/nexyuspay", label: "Instagram Profile" }
 ];
 
 const Home = () => {
@@ -156,7 +156,7 @@ const Home = () => {
             "url": "https://portofolio.nexyuspay.my.id",
             "sameAs": [
               "https://github.com/Wibisana-pixel",
-              "https://www.instagram.com/@nexyuspay"
+              "https://www.instagram.com/nexyuspay"
             ]
           }
         `}</script>
