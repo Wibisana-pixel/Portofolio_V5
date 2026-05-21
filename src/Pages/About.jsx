@@ -220,7 +220,6 @@ const AboutPage = () => {
             >
         Saya adalah seorang pelajar berusia 17 tahun yang sangat antusias dengan dunia pengembangan web dan manajemen bisnis digital. Saat ini saya aktif membangun berbagai proyek website dan mengelola platform layanan digital independen. Saya selalu berupaya menciptakan solusi digital yang inovatif, efisien, dan bermanfaat dalam setiap karya yang saya kerjakan.
 </p>
-                  </p>
 
                {/* Quote Section */}
       <div 
