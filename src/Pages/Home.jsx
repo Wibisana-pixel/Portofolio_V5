@@ -79,9 +79,8 @@ const PAUSE_DURATION = 2000;
 const WORDS = ["Student & Web Developer", "Digital Business Manager"];
 const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://github.com/", label: "GitHub Profile" },
-  { icon: Linkedin, link: "https://www.linkedin.com/", label: "LinkedIn Profile" },
-  { icon: Instagram, link: "https://www.instagram.com/?hl=id", label: "Instagram Profile" }
+  { icon: Github, link: "https://github.com/Wibisana-pixel", label: "GitHub Profile" },
+  { icon: Instagram, link: "https://www.instagram.com/@nexyuspay", label: "Instagram Profile" }
 ];
 
 const Home = () => {
@@ -143,10 +142,10 @@ const Home = () => {
         <title>M Yusuf Wibisana — Frontend Web Developer</title>
         <meta name="description" content="Website resmi M Yusuf Wibisana, Front-End Web Developer. Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan." />
      <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://portfolio.nexyuspay.my.id" />
+        <link rel="canonical" href="https://portofolio.nexyuspay.my.id" />
         <meta property="og:title" content="M Yusuf Wibisana — Frontend Web Developer" />
      <meta property="og:description" content="Website resmi dan portofolio M Yusuf Wibisana, Front-End Web Developer." />
-        <meta property="og:url" content="https://portfolio.nexyuspay.my.id" />
+        <meta property="og:url" content="https://portofolio.nexyuspay.my.id" />
         <meta property="og:type" content="website" />
         <script type="application/ld+json">{`
           {
@@ -154,11 +153,10 @@ const Home = () => {
             "@type": "Person",
             "name": "M Yusuf Wibisana",
             "jobTitle": "Frontend Developer",
-            "url": "https://portfolio.nexyuspay.my.id",
+            "url": "https://portofolio.nexyuspay.my.id",
             "sameAs": [
-              "https://github.com/",
-              "https://www.linkedin.com/",
-              "https://www.instagram.com/"
+              "https://github.com/Wibisana-pixel",
+              "https://www.instagram.com/@nexyuspay"
             ]
           }
         `}</script>
