@@ -12,9 +12,9 @@ const socialLinks = [
   {
     name: "GitHub",
     displayName: "GitHub",
-    subText: "@YusufWibisana", // Ganti dengan username GitHub kamu
+    subText: "Wibisana-pixel", // Ganti dengan username GitHub kamu
     icon: Github,
-    url: "https://github.com/YusufWibisana", // Ganti dengan link profil GitHub kamu
+    url: "https://github.com/Wibisana-pixel", // Ganti dengan link profil GitHub kamu
     color: "#ffffff",
     gradient: "from-[#333] to-[#24292e]",
     isPrimary: true,
