@@ -31,7 +31,7 @@ const socialLinks = [
   {
     name: "Facebook",
     displayName: "Facebook",
-    subText: "ZassStore / Nexyuspay",
+    subText: "Nexyuspay",
     icon: Facebook,
     url: "https://www.facebook.com/Nexyuspay", // Ganti dengan link Facebook kamu
     color: "#1877F2",
