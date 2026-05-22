@@ -139,7 +139,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>M Yusuf Wibisana — Frontend Web Developer</title>
+        <title>Nexyuspay — Frontend Web Developer</title>
         <meta name="description" content="Website resmi M Yusuf Wibisana, Front-End Web Developer. Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan." />
      <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://portofolio.nexyuspay.my.id" />
